@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="contact">
       <div className="row">
         <div className="col-lg-5 p-5 text-center">
-          <img src={contactus} alt="logo" className="contactexecuivelogo" />
+          <img src={contactus} alt="logo" loading="lazy" className="contactexecuivelogo" />
           <p>
             <span className="h3 me-4">
               <i

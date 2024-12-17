@@ -18,7 +18,7 @@ const Cards = ({img,tripStartLocation,tripEndLocation,tripPoint1,tripPoint2,trip
             <div className="place">
                 <div className="place-box1 p-4">
                     <img
-                        src={img}
+                        src={img} loading="lazy"
                         alt="img"
                         style={{ height: "21rem", width: "100%", borderRadius: "2rem" }}
                     />
@@ -26,7 +26,7 @@ const Cards = ({img,tripStartLocation,tripEndLocation,tripPoint1,tripPoint2,trip
                     <div className="trip-card-location d-flex align-items-center justify-content-around mt-3">
                         <p className="fs-4 fw-bold text-center text-capitalize">{tripStartLocation}</p>
                         <div className="trip-card-location-direction">
-                            <img src={trip} alt="trip" />
+                            <img src={trip} alt="trip" loading="lazy"/>
                         </div>
                         <p className="fs-4 fw-bold text-capitalize">{tripEndLocation}</p>
                     </div>
@@ -35,10 +35,10 @@ const Cards = ({img,tripStartLocation,tripEndLocation,tripPoint1,tripPoint2,trip
                         className="place-icons d-flex align-items-center justify-content-between m-3 p-4"
                         style={{ background: "rgb(226,237,244)", borderRadius: "2rem" }}
                     >
-                        <img src={flght} alt="flight" />
-                        <img src={meal} alt="meal" />
-                        <img src={stay} alt="stay" />
-                        <img src={car} alt="car" />
+                        <img src={flght} alt="flight"  loading="lazy"/>
+                        <img src={meal} alt="meal" loading="lazy" />
+                        <img src={stay} alt="stay" loading="lazy" />
+                        <img src={car} alt="car"  loading="lazy"/>
                     </div>
 
                     <div className="trip-main-points ms-3 mt-3">
@@ -58,7 +58,7 @@ const Cards = ({img,tripStartLocation,tripEndLocation,tripPoint1,tripPoint2,trip
                         <div className="next-depart-date fs-5">{departureDate}</div>
                     </div>
                     <div className="trip-price">
-                        <img src={tripcardprice} alt="tripCard" />
+                        <img src={tripcardprice} alt="tripCard" loading="lazy"/>
                         <div className="trip-price-text">
                             <p className="text-strike m-0">
                                 <del className="fs-5">₹{totalPrice}</del>
@@ -70,7 +70,7 @@ const Cards = ({img,tripStartLocation,tripEndLocation,tripPoint1,tripPoint2,trip
                 </div>
 
                 <div className="offer">
-                    <img src={offer} alt="offer" />
+                    <img src={offer} alt="offer" loading="lazy" />
                 </div>
                 <div className="offer-price">
                     <p className="fw-bold fs-4">{off} OFF</p>
@@ -80,7 +80,7 @@ const Cards = ({img,tripStartLocation,tripEndLocation,tripPoint1,tripPoint2,trip
                     style={{ background: "rgb(28,89,129)" }}
                 >
                     <div className="duration-box d-flex align-items-center justify-content-center ps-3 pe-3">
-                        <img src={sun} alt="sun" style={{ height: "2rem" }} />
+                        <img src={sun} alt="sun" style={{ height: "2rem" }} loading="lazy"/>
                         <p className="fs-4 text-white ms-3">{duration}</p>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const Findbox = () => {
             >
                 <div className="find-box-1 p-3 ms-md-4 d-flex">
                     <div className="filterbox d-none d-md-block">
-                        <img src={filter} alt="filter" />
+                        <img src={filter} alt="filter" loading="lazy" />
                     </div>
                     <div className="dropdown ms-md-4">
                         <button
@@ -182,7 +182,7 @@ const Findbox = () => {
 
                 <div className="find-box-2 d-flex align-items-center me-md-5">
                     <div className="sortbox d-md-block">
-                        <img src={sort} alt="sort" />
+                        <img src={sort} alt="sort" loading="lazy"/>
                     </div>
                     <div className="dropdown ms-md-4">
                         <button

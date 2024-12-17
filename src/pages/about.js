@@ -9,7 +9,7 @@ class About extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-4">
-                <img src={aboutImage} alt="TravelX Logo" style={{ height: "40rem" }} />
+                <img src={aboutImage} loading="lazy" alt="TravelX Logo" style={{ height: "40rem" }} />
               </div>
               <div className="col-lg-8 pt-5 pb-5">
                 <h2>About Us</h2>

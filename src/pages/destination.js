@@ -19,13 +19,13 @@ const Destination = ()=>{
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={offer1} className="d-block w-100" alt="offer1"/>
+                        <img src={offer1} loading="lazy" className="d-block w-100" alt="offer1"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={offer2} className="d-block w-100" alt="offer2"/>
+                        <img src={offer2} loading="lazy" className="d-block w-100" alt="offer2"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={offer3} className="d-block w-100" alt="offer3"/>
+                        <img src={offer3} loading="lazy" className="d-block w-100" alt="offer3"/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"

@@ -22,7 +22,7 @@ class Home extends React.Component {
                             <div className="col">
                                 <div className="box1 clearfix m-md-5 mb-3" id="land">
                                     <div className="imgbox">
-                                        <img src={switer} alt="switer" className="w-100 h-100" />
+                                        <img src={switer} loading="lazy" alt="switer" className="w-100 h-100" />
                                     </div>
                                     <div className="textbox p-md-5 pt-3">
                                         <h3 className="h1">Geneva, Switzerland</h3>
@@ -37,7 +37,7 @@ class Home extends React.Component {
                                 </div>
                                 <div className="box2 clearfix m-md-5 mb-3" id="ladakh">
                                     <div className="imgbox">
-                                        <img src={ladakh} alt="" className="w-100 h-100" />
+                                        <img src={ladakh} loading="lazy" alt="" className="w-100 h-100" />
                                     </div>
                                     <div className="textbox p-md-5 pt-3">
                                         <h3 className="h1">Ladakh, India</h3>
@@ -53,7 +53,7 @@ class Home extends React.Component {
 
                                 <div className="box1 clearfix m-md-5 mb-3" id="nepal">
                                     <div className="imgbox">
-                                        <img src={mountain} alt="" className="w-100 h-100" />
+                                        <img src={mountain} loading="lazy" alt="" className="w-100 h-100" />
                                     </div>
                                     <div className="textbox p-md-5 pt-3">
                                         <h3 className="h1">Nepal</h3>
@@ -68,7 +68,7 @@ class Home extends React.Component {
                                 </div>
                                 <div className="box2 clearfix m-md-5 mb-3" id="beach">
                                     <div className="imgbox">
-                                        <img src={beach} alt="" className="w-100 h-100" />
+                                        <img src={beach} loading="lazy" alt="" className="w-100 h-100" />
                                     </div>
                                     <div className="textbox p-md-5 pt-3">
                                         <h3 className="h1">Beach of La Concha</h3>
@@ -103,7 +103,7 @@ class Home extends React.Component {
                     <div className="row m-5">
 
                         <div className="col-12 col-lg-4 cards mb-3 m-auto">
-                            <div className="cardimgbox"><img src={customer1} alt="customer" /> </div>
+                            <div className="cardimgbox"><img src={customer1} loading="lazy" alt="customer" /> </div>
                             <div className="cardtextbox">
                                 <h1 className="h3">George</h1>
                                 <p className="fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, debitis!</p>
@@ -118,7 +118,7 @@ class Home extends React.Component {
                         </div>
 
                         <div className="col-12 col-lg-4 cards mb-3 m-auto">
-                            <div className="cardimgbox"><img src={customer2} alt="customer" /> </div>
+                            <div className="cardimgbox"><img src={customer2} loading="lazy" alt="customer" /> </div>
                             <div className="cardtextbox">
                                 <h1 className="h3">Isabella</h1>
                                 <p className="fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, debitis!</p>
@@ -133,7 +133,7 @@ class Home extends React.Component {
 
 
                         <div className="col-12 cards mb-md-3 col-lg-4  m-auto">
-                            <div className="cardimgbox"><img src={customer3} alt="customer" /> </div>
+                            <div className="cardimgbox"><img src={customer3} loading="lazy" alt="customer" /> </div>
                             <div className="cardtextbox">
                                 <h1 className="h3">Lisa</h1>
                                 <p className="fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, debitis!</p>
