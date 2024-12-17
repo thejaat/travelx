@@ -94,8 +94,8 @@ class Footer extends React.Component {
             
           <div className="col text-center fs-3 text-white p-2" style={{backgroundColor:"rgb(28, 89, 129)"}}>
               Developed By Chaudhary Aditya 
-              <a href="https://www.linkedin.com/in/thejaat08/" target="_blank"><i class="fa-brands fa-linkedin-in fs-2 ms-5" style={{color:" #ffffff;"}}></i></a> 
-              <a href="https://github.com/thejaat" target="_blank"><i class="fa-brands fa-github fs-2 ms-5" style={{color:"rgb(0,0,0)"}}></i></a> 
+              <a href="https://www.linkedin.com/in/thejaat08/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in fs-2 ms-5" style={{color:" #ffffff;"}}></i></a> 
+              <a href="https://github.com/thejaat" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fs-2 ms-5" style={{color:"rgb(0,0,0)"}}></i></a> 
             </div>
           </div>
           <div className="row">
