@@ -54,6 +54,7 @@ class About extends React.Component {
                 </div>
               </div>
             </div>
+            
           </div>
         </main>
       </React.Fragment>

@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
-import homevedio from "../assets/header.mp4"
+import wallpaper from "../assets/wal3.jpg"
 const Homeheader = () => {
      const[isMenuOpen,setIsMenuOpen] = useState(false)
     
@@ -9,14 +9,15 @@ const Homeheader = () => {
         }
     return (
         <header id="home">
-            <video
+            {/* <video
                 src={homevedio}
                 autoPlay
                 muted
                 loop
                 playsInline
                 className="bgVedio"
-            ></video>
+            ></video> */}
+            <img src={wallpaper} className='bgVedio'/>
             {/* navbar */}
             <div className="container">
                 <div className="row">
