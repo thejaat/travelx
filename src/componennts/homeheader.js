@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
-import wallpaper from "../assets/wal3.jpg"
+import wallpaper from "../assets/wal1.jpg"
 const Homeheader = () => {
      const[isMenuOpen,setIsMenuOpen] = useState(false)
     
