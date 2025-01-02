@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
-import wallpaper from "../assets/wal1.jpg"
+import homewall from "../assets/wal1.jpg"
 const Homeheader = () => {
      const[isMenuOpen,setIsMenuOpen] = useState(false)
     
@@ -9,15 +9,8 @@ const Homeheader = () => {
         }
     return (
         <header id="home">
-            {/* <video
-                src={homevedio}
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="bgVedio"
-            ></video> */}
-            <img src={wallpaper} className='bgVedio'/>
+         
+            <img src={homewall} className='bgVedio'/>
             {/* navbar */}
             <div className="container">
                 <div className="row">
